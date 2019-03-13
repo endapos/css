@@ -334,7 +334,7 @@ div .Peringatan {
 }
 
 /*Content*/
-.kotak {
+#kotak {
     background: #fafafa;
     width: 1150px;
     height: 100%;
@@ -343,7 +343,7 @@ div .Peringatan {
     overflow: hidden;
 }
 
-.kotak1 {
+#kotak1 {
     float: left;
     width: 760px;
     margin: 0;
@@ -441,7 +441,7 @@ blockquote {
 }
 
 /*Sidebar*/
-.kotak2 {
+#kotak2 {
     float: right;
     width: 300px;
     margin: 0;
