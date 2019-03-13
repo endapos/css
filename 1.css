@@ -330,11 +330,17 @@ div .Peringatan {
 }
 
 /*Content*/
-#kotak {
+.kotak {
     background: #fafafa;
+    height: 100%;
     margin: 55px auto;
     padding: 10px;
     overflow: hidden;
+}
+
+.kotak2 {
+    margin: 0;
+    padding: 0;
 }
 
 /*Breadcrumbs*/
@@ -427,7 +433,7 @@ blockquote {
     clear: both;
 }
 
-/*Sidebar*/
+/*Sidebar Right*/
 .sidebar h2 {
     padding: 0 0 5px;
     margin: 0 0 5px;
