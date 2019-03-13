@@ -32,7 +32,9 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: ' ';
+    content: &#39;
+    &#39;
+    ;
     content: none;
 }
 
@@ -246,9 +248,11 @@ mark.highlight {
 
 pre,
 code {
-    font-family: 'Courier New',
-        Courier,
-        monospace;
+    font-family: &#39;
+    Courier New&#39;
+    ,
+    Courier,
+    monospace;
     display: block;
     max-height: 500px;
     background: #f8fef5;
@@ -332,13 +336,16 @@ div .Peringatan {
 /*Content*/
 .kotak {
     background: #fafafa;
+    width: 1150px;
     height: 100%;
     margin: 55px auto;
     padding: 10px;
     overflow: hidden;
 }
 
-.kotak2 {
+.kotak1 {
+    float: left;
+    width: 760px;
     margin: 0;
     padding: 0;
 }
@@ -433,7 +440,14 @@ blockquote {
     clear: both;
 }
 
-/*Sidebar Right*/
+/*Sidebar*/
+.kotak2 {
+    float: right;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
 .sidebar h2 {
     padding: 0 0 5px;
     margin: 0 0 5px;
@@ -619,62 +633,63 @@ blockquote {
 
 
 /* Gradient Mulai */
-/* {
-background: linear-gradient(-45deg, #FFFFFF, #729FCF, #3465A4, #AD7FA8);
-background-size: 500%;
--webkit-animation: Gradient 30s ease infinite;
--moz-animation: Gradient 30s ease infinite;
+< !-- {
+    background: linear-gradient(-45deg, #FFFFFF, #729FCF, #3465A4, #AD7FA8);
+    background-size: 500%;
+    -webkit-animation: Gradient 30s ease infinite;
+    -moz-animation: Gradient 30s ease infinite;
 }
 
-{
-background: linear-gradient(-45deg, #8B0000, #483D8B, #FF6347, #FF4500);
-background-size: 500%;
--webkit-animation: Gradient 30s ease infinite;
--moz-animation: Gradient 30s ease infinite;
+-->< !-- {
+    background: linear-gradient(-45deg, #8B0000, #483D8B, #FF6347, #FF4500);
+    background-size: 500%;
+    -webkit-animation: Gradient 30s ease infinite;
+    -moz-animation: Gradient 30s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
-0% {
-background-position: 0 50%
-}
+    0% {
+        background-position: 0 50%
+    }
 
-50% {
-background-position: 100% 50%
-}
+    50% {
+        background-position: 100% 50%
+    }
 
-100% {
-background-position: 0 50%
-}
+    100% {
+        background-position: 0 50%
+    }
 }
 
 @-moz-keyframes Gradient {
-0% {
-background-position: 0 50%
-}
+    0% {
+        background-position: 0 50%
+    }
 
-50% {
-background-position: 100% 50%
-}
+    50% {
+        background-position: 100% 50%
+    }
 
-100% {
-background-position: 0 50%
-}
+    100% {
+        background-position: 0 50%
+    }
 }
 
 @keyframes Gradient {
-0% {
-background-position: 0 50%
-}
+    0% {
+        background-position: 0 50%
+    }
 
-50% {
-background-position: 100% 50%
-}
+    50% {
+        background-position: 100% 50%
+    }
 
-100% {
-background-position: 0 50%
-}
+    100% {
+        background-position: 0 50%
+    }
 
-} */
+    -->
+}
 
 /* Gradient Akhir */
 
