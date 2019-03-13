@@ -332,7 +332,6 @@ div .Peringatan {
 /*Content*/
 #kotak {
     background: #fafafa;
-    width: 1150px;
     height: 100%;
     margin: 55px auto;
     padding: 10px;
@@ -340,8 +339,6 @@ div .Peringatan {
 }
 
 #kotak2 {
-    float: left;
-    width: 760px;
     margin: 0;
     padding: 0;
 }
@@ -438,8 +435,6 @@ blockquote {
 
 /*Sidebar Right*/
 #kotak2 {
-    float: right;
-    width: 300px;
     margin: 0;
     padding: 0;
 }
